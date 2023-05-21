@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+ 
+body {
+font-family: 'Roboto', sans-serif;  background-image: linear-gradient(to Ttop, rgb(117, 132, 132), white);
+
+  height: 100vh;
+}
+
+.card {
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+}
+.sites {
+    text-align: center;
+  margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+
+}
+.sites li {
+    display: inline-block;
+    margin: 5px;
+
+}
+.sites li a{
+  display: block;
+      color: black;
+
+   }
+.nav-item {
+  align-self: flex-end;
+  color: #3d6ded;
+}
+
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  margin: 0;
+  padding: 0;
+}
+.subtitle{
+  font-size: 0.7rem;
+  margin: 0;
+    padding: 0;
+
+}
+
+
+.bar {
+  position: sticky; 
+  top: 0;
+  background-color: #333;
+  
+}
+.bar li {
+  display: inline-block;
+}
+.bar li a {
+  display: block;
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+  }
+.bar  li a:hover {
+  background-color: black;
+  padding: 1rem;
+}
+ .active {
+  background-color: black;
+  padding: 1rem;
+}
